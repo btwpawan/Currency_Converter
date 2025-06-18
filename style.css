@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #81e2e8, #a6a84a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: #1f1f2e;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #00ffe0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+form .amount,
+form .dropdowns,
+form .msg {
+  margin: 1rem 0;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.select-box {
+  background: #101018;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+select {
+  background: transparent;
+  color: #29bcbf;
+  border: none;
+  margin-left: 10px;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+}
+
+img {
+  width: 25px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  background: #00b894;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00cec9;
+}
+
+.msg {
+  font-weight: bold;
+  color: #f1c40f;
+}
